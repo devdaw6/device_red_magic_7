@@ -1,0 +1,10 @@
+device_manufactor_model => device_red_magic_7
+|__ prebuilt
+|__ recovery/......
+| Android.mk -------------------------------- twrp_red_magic_7
+|||||||||||||||||||| -------------------------- COMMON_LUNCH_CHOICES := twrp_ red_magic_7 -eng
+| AndroidProducts.mk --------------- twrp_red_magic_7
+| BoardConfig.mk --------------- device/nubia/red_magic_7
+| device.mk --------------- device/nubia/red_magic_7
+| twrp_red_magic_7.mk --------------- ..... vendor/twrp/config/common.mk
+| Любые другие необходимые вам файлы.
